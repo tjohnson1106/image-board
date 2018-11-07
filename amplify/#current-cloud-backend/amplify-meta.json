@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "vertigoweb-20181107141350-authRole",
+			"UnauthRoleArn": "arn:aws:iam::193963551037:role/vertigoweb-20181107141350-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::193963551037:role/vertigoweb-20181107141350-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "vertigoweb-20181107141350-deployment",
+			"UnauthRoleName": "vertigoweb-20181107141350-unauthRole",
+			"StackName": "vertigoweb-20181107141350",
+			"StackId": "arn:aws:cloudformation:us-east-1:193963551037:stack/vertigoweb-20181107141350/4287c640-e2c1-11e8-8fdf-500c286e44d1"
+		}
+	},
+	"api": {
+		"vertigoweb": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "kgn32pp225au7p2amig7n3vpqq",
+				"GraphQLAPIEndpointOutput": "https://3gbeg6glkjfi7i4yikq4w4c2z4.appsync-api.us-east-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-czqmnh5zzrh4bdjbpc5gf5d5dq"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/vertigoweb-20181107141350-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apivertigoweb"
+			},
+			"lastPushTimeStamp": "2018-11-07T19:22:37.201Z",
+			"lastPushDirHash": "Sau2mXHcgskjuJwFYQQaF5JNDy4="
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "vertigoweb",
+    "schemaGraphql": "s3://vertigoweb-20181107141350-deployment/amplify-appsync-files/schema.graphql.1541618400728",
+    "ResolverBucket": "vertigoweb-20181107141350-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1541618400728"
+}

@@ -1,0 +1,20 @@
+{
+    "projectName": "vertigoweb",
+    "projectPath": "/home/thomas/Code/web/vertigo-web",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "javascript": "/home/thomas/.nvm/versions/node/v10.10.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "build",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "npm run-script start"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/home/thomas/.nvm/versions/node/v10.10.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    }
+}
