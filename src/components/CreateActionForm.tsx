@@ -5,8 +5,8 @@ import Button from "@material-ui/core/Button";
 import { Mutation } from "react-apollo";
 import gql from "graphql-tag";
 
-import { createAction } from "./graphql/mutations";
-import { CreateActionMutationVariables, CreateActionMutation } from "./API";
+import { createAction } from "../graphql/mutations";
+import { CreateActionMutationVariables, CreateActionMutation } from "../API";
 
 interface FormValues {
   name: string;

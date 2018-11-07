@@ -25,8 +25,8 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/vertigoweb-20181107141350-deployment/amplify-cfn-templates/api/cloudformation-template.json",
 				"logicalId": "apivertigoweb"
 			},
-			"lastPushTimeStamp": "2018-11-07T19:22:37.201Z",
-			"lastPushDirHash": "Sau2mXHcgskjuJwFYQQaF5JNDy4="
+			"lastPushTimeStamp": "2018-11-07T21:18:10.327Z",
+			"lastPushDirHash": "bKguVPHJ98sb1xzQVXlbfwB8mE4="
 		}
 	}
 }

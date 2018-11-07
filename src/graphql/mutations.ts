@@ -6,7 +6,7 @@ export const createAction = `mutation CreateAction($input: CreateActionInput!) {
     id
     name
     price
-   
+    description
   }
 }
 `;
@@ -15,7 +15,7 @@ export const updateAction = `mutation UpdateAction($input: UpdateActionInput!) {
     id
     name
     price
-   
+    description
   }
 }
 `;
@@ -24,7 +24,7 @@ export const deleteAction = `mutation DeleteAction($input: DeleteActionInput!) {
     id
     name
     price
-   
+    description
   }
 }
 `;
