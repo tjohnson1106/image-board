@@ -2,7 +2,6 @@ type Action {
   id: ID!
   name: String!
   price: Float!
-  description: String
 }
 
 enum ModelSortDirection {
@@ -82,7 +81,11 @@ input ModelActionFilterInput {
 
 type Query {
   getAction(id: ID!): Action
-  listActions(filter: ModelActionFilterInput, limit: Int, nextToken: String): ModelActionConnection
+  listActions(
+    filter: ModelActionFilterInput
+    limit: Int
+    nextToken: String
+  ): ModelActionConnection
 }
 
 input CreateActionInput {

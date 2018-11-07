@@ -5,7 +5,6 @@ import AppSyncConfig from "./aws-exports";
 import { ApolloProvider } from "react-apollo";
 import { Rehydrated } from "aws-appsync-react"; // this needs to also be installed when working with React
 
-import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import App from "./App";
 
