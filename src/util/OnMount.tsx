@@ -4,7 +4,7 @@ interface Props {
   onEffect: () => void | (() => void);
 }
 
-export const onMount = ({ onEffect }: Props) => {
+export const OnMount = ({ onEffect }: Props) => {
   useEffect(onEffect, []);
 
   return null;
