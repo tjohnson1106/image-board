@@ -2,6 +2,8 @@
 
 import * as React from "react";
 
+declare module "aws-amplify-react";
+
 declare module "react" {
   //
   // Hooks

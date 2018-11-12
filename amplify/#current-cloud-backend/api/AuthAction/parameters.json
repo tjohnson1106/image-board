@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "AuthAction",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito343c360a",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "schemaGraphql": "s3://vertigoweb-20181107141350-deployment/amplify-appsync-files/schema.graphql.1542064622951",
+    "ResolverBucket": "vertigoweb-20181107141350-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1542064622951"
+}

@@ -1,16 +1,16 @@
 projects:
-  vertigoweb:
+  AuthAction:
     schemaPath: src/graphql/schema.json
     includes:
       - src/graphql/**/*.ts
     excludes:
-      - amplify/**
+      - ./amplify/**
     extensions:
       amplify:
         codeGenTarget: typescript
         generatedFileName: src/API.ts
         docsFilePath: src/graphql
-        graphQLApiId: kgn32pp225au7p2amig7n3vpqq
+        graphQLApiId: blsukcgi45c33jgqlt75qxrqmu
       endpoints:
         prod: >-
-          https://3gbeg6glkjfi7i4yikq4w4c2z4.appsync-api.us-east-1.amazonaws.com/graphql
+          https://k7gpxpleeffkblta7hyg7zljp4.appsync-api.us-east-1.amazonaws.com/graphql

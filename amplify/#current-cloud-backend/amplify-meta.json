@@ -12,21 +12,45 @@
 		}
 	},
 	"api": {
-		"vertigoweb": {
+		"AuthAction": {
 			"service": "AppSync",
 			"providerPlugin": "awscloudformation",
 			"output": {
-				"securityType": "API_KEY",
-				"GraphQLAPIIdOutput": "kgn32pp225au7p2amig7n3vpqq",
-				"GraphQLAPIEndpointOutput": "https://3gbeg6glkjfi7i4yikq4w4c2z4.appsync-api.us-east-1.amazonaws.com/graphql",
-				"GraphQLAPIKeyOutput": "da2-czqmnh5zzrh4bdjbpc5gf5d5dq"
+				"securityType": "AMAZON_COGNITO_USER_POOLS",
+				"GraphQLAPIIdOutput": "blsukcgi45c33jgqlt75qxrqmu",
+				"GraphQLAPIEndpointOutput": "https://k7gpxpleeffkblta7hyg7zljp4.appsync-api.us-east-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-r2pvhfl2dbezpntzcg324pwiti",
+				"AuthCognitoUserPoolIdOutput": "us-east-1_U1ysVIIlq",
+				"AuthCognitoUserPoolNativeClientId": "See UserPool: us-east-1_U1ysVIIlq",
+				"AuthCognitoUserPoolJSClientId": "See UserPool: us-east-1_U1ysVIIlq"
 			},
 			"providerMetadata": {
 				"s3TemplateURL": "https://s3.amazonaws.com/vertigoweb-20181107141350-deployment/amplify-cfn-templates/api/cloudformation-template.json",
-				"logicalId": "apivertigoweb"
+				"logicalId": "apiAuthAction"
 			},
-			"lastPushTimeStamp": "2018-11-12T21:31:25.863Z",
-			"lastPushDirHash": "xYXkeRhxpGhWHwO61Q47Zv1M0EQ="
+			"lastPushTimeStamp": "2018-11-12T23:21:48.239Z",
+			"lastPushDirHash": "HVR6vAHCRtveeFqohB+oMHtTA7g="
+		}
+	},
+	"auth": {
+		"cognito343c360a": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/vertigoweb-20181107141350-deployment/amplify-cfn-templates/auth/cognito343c360a-cloudformation-template.yml",
+				"logicalId": "authcognito343c360a"
+			},
+			"lastPushTimeStamp": "2018-11-12T23:21:48.239Z",
+			"output": {
+				"AppClientSecret": "1vvctmdhhp8r9g8tup8uneo6ud362f9b5du1vfskd51lgf9t4tj5",
+				"UserPoolId": "us-east-1_U1ysVIIlq",
+				"AppClientIDWeb": "27eehnv3iv4q76ag02a99ppo7h",
+				"AppClientID": "e4fdpr7l8890t1dl6luhl2buf",
+				"IdentityPoolId": "us-east-1:120b6697-d0b0-4bc1-8a66-4f22f215e885",
+				"IdentityPoolName": "cognito343c360a_identitypool_343c360a",
+				"UserPoolName": "cognito343c360a_userpool_343c360a"
+			},
+			"lastPushDirHash": "bZLAXyylmecFdx6bO6yWV2edJU0="
 		}
 	}
 }

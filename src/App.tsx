@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withAuthenticator } from "aws-amplify-react";
 
 import "./App.css";
 import { CreateActionForm } from "./components/CreateActionForm";
@@ -15,4 +16,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withAuthenticator(App);
