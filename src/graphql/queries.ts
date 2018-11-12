@@ -6,7 +6,6 @@ export const getAction = `query GetAction($id: ID!) {
     id
     name
     price
-    description
   }
 }
 `;
@@ -20,7 +19,6 @@ export const listActions = `query ListActions(
       id
       name
       price
-      description
     }
     nextToken
   }

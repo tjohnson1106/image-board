@@ -12,7 +12,7 @@ export const ActionsList = () => {
       query={gql(listActions)}
       variables={{ limit: 100 }}
     >
-      {({ data, loading }) => {
+      {({ data, loading, subscribeToMore }) => {
         if (loading || !data || !data.listActions || !data.listActions.items) {
           return null;
         }

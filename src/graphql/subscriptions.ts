@@ -6,7 +6,6 @@ export const onCreateAction = `subscription OnCreateAction {
     id
     name
     price
-    description
   }
 }
 `;
@@ -15,7 +14,6 @@ export const onUpdateAction = `subscription OnUpdateAction {
     id
     name
     price
-    description
   }
 }
 `;
@@ -24,7 +22,6 @@ export const onDeleteAction = `subscription OnDeleteAction {
     id
     name
     price
-    description
   }
 }
 `;

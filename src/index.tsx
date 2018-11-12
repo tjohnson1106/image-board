@@ -8,6 +8,8 @@ import * as serviceWorker from "./serviceWorker";
 import App from "./App";
 
 const client = new AWSAppSyncClient({
+  // disable offline fix for duplicate key
+  disableOffline: true,
   url: AppSyncConfig.aws_appsync_graphqlEndpoint,
   region: AppSyncConfig.aws_appsync_region,
   auth: {

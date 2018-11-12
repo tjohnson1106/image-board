@@ -2,5 +2,4 @@ type Action @model {
   id: ID!
   name: String!
   price: Float!
-  description: String
 }

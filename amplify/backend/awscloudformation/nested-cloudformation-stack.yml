@@ -84,10 +84,10 @@
 				"TemplateURL": "https://s3.amazonaws.com/vertigoweb-20181107141350-deployment/amplify-cfn-templates/api/cloudformation-template.json",
 				"Parameters": {
 					"AppSyncApiName": "vertigoweb",
-					"schemaGraphql": "s3://vertigoweb-20181107141350-deployment/amplify-appsync-files/schema.graphql.1541624662527",
+					"schemaGraphql": "s3://vertigoweb-20181107141350-deployment/amplify-appsync-files/schema.graphql.1542057597174",
 					"ResolverBucket": "vertigoweb-20181107141350-deployment",
 					"ResolverRootKey": "amplify-appsync-files",
-					"DeploymentTimestamp": "1541624662527"
+					"DeploymentTimestamp": "1542057597174"
 				}
 			}
 		}
